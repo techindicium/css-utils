@@ -1,14 +1,18 @@
-@media (max-width: 576px)                         {:root{--text-factor: 0.75;}}
-@media (min-width: 576px)  and (max-width: 768px) {:root{--text-factor: 0.8;}}
-@media (min-width: 768px)  and (max-width: 992px) {:root{--text-factor: 0.85;}}
-@media (min-width: 992px)  and (max-width: 1200px){:root{--text-factor: 0.9;}}
-@media (min-width: 1200px) and (max-width: 1366px){:root{--text-factor: 1;}}
-@media (min-width: 1366px) and (max-width: 1440px){:root{--text-factor: 1.1;}}
-@media (min-width: 1440px) and (max-width: 1920px){:root{--text-factor: 1.2;}}
-@media (min-width: 1920px)                        {:root{--text-factor: 1.3;}}
+@media (max-width: 576px)                         {:root{--text-factor: calc(var(--xs-factor) * 0.75);}}
+@media (min-width: 576px)  and (max-width: 768px) {:root{--text-factor: calc(var(--sm-factor) * 0.8);}}
+@media (min-width: 768px)  and (max-width: 992px) {:root{--text-factor: calc(var(--md-factor) * 0.85);}}
+@media (min-width: 992px)  and (max-width: 1200px){:root{--text-factor: calc(var(--lg-factor) * 0.9);}}
+@media (min-width: 1200px) and (max-width: 1366px){:root{--text-factor: calc(var(--xl-factor) * 1);}}
+@media (min-width: 1366px) and (max-width: 1440px){:root{--text-factor: calc(var(--xl-factor) * 1.1);}}
+@media (min-width: 1440px) and (max-width: 1920px){:root{--text-factor: calc(var(--xl-factor) * 1.2);}}
+@media (min-width: 1920px)                        {:root{--text-factor: calc(var(--xl-factor) * 1.3);}}
 
 /* Size */
 .fs-0{font-size: calc(var(--text-factor) * 0.3rem);}.fs-1{font-size: calc(var(--text-factor) * 0.45rem);}.fs-2{font-size: calc(var(--text-factor) * 0.5rem);}.fs-3{font-size: calc(var(--text-factor) * 0.65rem);}.fs-4{font-size: calc(var(--text-factor) * 0.7rem);}.fs-5{font-size: calc(var(--text-factor) * 0.85rem);}.fs-6{font-size: calc(var(--text-factor) * 1rem);}.fs-7{font-size: calc(var(--text-factor) * 1.1rem);}.fs-8{font-size: calc(var(--text-factor) * 1.2rem);}.fs-9{font-size: calc(var(--text-factor) * 1.3rem);}.fs-10{font-size: calc(var(--text-factor) * 1.4rem);}.fs-11{font-size: calc(var(--text-factor) * 1.5rem);}.fs-12{font-size: calc(var(--text-factor) * 1.75rem);}.fs-13{font-size: calc(var(--text-factor) * 2rem);}.fs-14{font-size: calc(var(--text-factor) * 2.25rem);}.fs-15{font-size: calc(var(--text-factor) * 2.5rem);}
 
 /* Text Spacing */
-.ts-0{line-height: calc(var(--font-factor) * 1rem);}.ts-1{line-height: calc(var(--font-factor) * 1.1rem);}.ts-2{line-height: calc(var(--font-factor) * 1.25rem);}.ts-3{line-height: calc(var(--font-factor) * 1.5rem);}.ts-4{line-height: calc(var(--font-factor) * 1.75rem);}.ts-5{line-height: calc(var(--font-factor) * 2rem);}
+.lh-0{line-height: calc(var(--text-factor) * 1rem);}.lh-1{line-height: calc(var(--text-factor) * 1.1rem);}.lh-2{line-height: calc(var(--text-factor) * 1.25rem);}.lh-3{line-height: calc(var(--text-factor) * 1.5rem);}.lh-4{line-height: calc(var(--text-factor) * 1.75rem);}.lh-5{line-height: calc(var(--text-factor) * 2rem);}
+.ls-0{letter-spacing: calc(var(--text-factor) * 0.1rem);}.ls-1{letter-spacing: calc(var(--text-factor) * 0.25rem);}.ls-2{letter-spacing: calc(var(--text-factor) * 0.5rem);}.ls-3{letter-spacing: calc(var(--text-factor) * 0.7rem);}.ls-4{letter-spacing: calc(var(--text-factor) * 0.9rem);}.ls-5{letter-spacing: calc(var(--text-factor) * 1rem);}
+
+/* Font Family */
+.ff-t1{font-family: var(--font-tier-1);}.ff-t2{font-family: var(--font-tier-2);}.ff-t3{font-family: var(--font-tier-3);}.ff-t4{font-family: var(--font-tier-4);}.ff-t5{font-family: var(--font-tier-5);}

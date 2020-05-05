@@ -1,0 +1,13 @@
+/* Background Color */
+.bg-t1{background-color: var(--color-tier-1) !important;}.bg-t2{background-color: var(--color-tier-2) !important;}.bg-t3{background-color: var(--color-tier-3) !important;}.bg-t4{background-color: var(--color-tier-4) !important;}.bg-t5{background-color: var(--color-tier-5) !important;}
+
+/* Color */
+.c-t1{color: var(--color-tier-1) !important;}.c-t2{color: var(--color-tier-2) !important;}.c-t3{color: var(--color-tier-3) !important;}.c-t4{color: var(--color-tier-4) !important;}.c-t5{color: var(--color-tier-5) !important;}
+
+/* Outline Color */
+.bo-t1{border-color: var(--color-tier-1) !important;}.bo-t2{border-color: var(--color-tier-2) !important;}.bo-t3{border-color: var(--color-tier-3) !important;}.bo-t4{border-color: var(--color-tier-4) !important;}.bo-t5{border-color: var(--color-tier-5) !important;}
+.bo-t1:hover,.bo-t2:hover,.bo-t3:hover,.bo-t4:hover,.bo-t5:hover{border-color: none !important;}
+
+/* Hover Color */
+.hbg-t1:hover{background-color: var(--color-tier-1) !important;}.hbg-t2:hover{background-color: var(--color-tier-2) !important;}.hbg-t3:hover{background-color: var(--color-tier-3) !important;}.hbg-t4:hover{background-color: var(--color-tier-4) !important;}.hbg-t5:hover{background-color: var(--color-tier-5) !important;}
+.hc-t1:hover{color: var(--color-tier-1) !important;}.hc-t2:hover{color: var(--color-tier-2) !important;}.hc-t3:hover{color: var(--color-tier-3) !important;}.hc-t4:hover{color: var(--color-tier-4) !important;}.hc-t5:hover{color: var(--color-tier-5) !important;}
