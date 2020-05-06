@@ -58,18 +58,19 @@ function va(){
         items.each(function(){
             preview($(this),'open')
             const images = $(this).find('.va-img')
-            const texts = $(this).find('.va-text')
             model.img  = property('get', images, model.img)
+            const texts = $(this).find('.va-text')
             model.text = property('get', texts, model.text)
             const spacing = $(this).height() - sum(model.img) - sum(model.text)
             model.spacing = greatest(spacing, model.spacing)
-            console.log(spacing)
             preview($(this), 'close')
         });
         items.each(function(){
             const images = $(this).find('.va-img')
-            const texts = $(this).find('.va-text')
+            images.each(function(){$(this).parent('.mx-auto').removeClass(classes("col"));})
             property('set', images, model.img)
+            const texts = $(this).find('.va-text')
+            texts.each(function(){$(this).removeClass(classes("h") + classes("vh"))})
             property('set', texts, model.text)
             $(this).css('height', (model.spacing + sum(model.img) + sum(model.text)))
         });
