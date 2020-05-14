@@ -1,11 +1,11 @@
-@media (max-width: 576px)                           {:root{--dimension-factor: calc(var(--xs-factor) * ((85vh + 60vw)/2 + (100vh - 100vw)/3));}}
-@media (min-width: 576px) and (max-width: 768px)    {:root{--dimension-factor: calc(var(--sm-factor) * ((80vh + 75vw)/2 + (100vh - 100vw)/2.5));}}
-@media (min-width: 768px) and (max-width: 992px)    {:root{--dimension-factor: calc(var(--md-factor) * ((70vh + 80vw)/2 + (100vh - 100vw)/2));}}
-@media (min-width: 992px) and (max-width: 1200px)   {:root{--dimension-factor: calc(var(--lg-factor) * ((60vh + 95vw)/2 + (100vh - 100vw)/1.5));}}
-@media (min-width: 1200px) and (max-width: 1366px)  {:root{--dimension-factor: calc(var(--xl-factor) * ((65vh + 90vw)/2 + (100vh - 100vw)/1.5));}}
-@media (min-width: 1366px) and (max-width: 1440px)  {:root{--dimension-factor: calc(var(--xl-factor) * ((70vh + 80vw)/2 + (100vh - 100vw)/2));}}
-@media (min-width: 1440px) and (max-width: 1920px)  {:root{--dimension-factor: calc(var(--xl-factor) * ((80vh + 70vw)/2 + (100vh - 100vw)/2.5));}}
-@media (min-width: 1920px)                          {:root{--dimension-factor: calc(var(--xl-factor) * ((100vh + 60vw)/2 + (100vh - 100vw)/2.5));}}
+@media (max-width: 576px)                           {:root{--dimension-factor: calc(var(--xs-factor) * (100vh + 100vw)/2);}}
+@media (min-width: 576px) and (max-width: 768px)    {:root{--dimension-factor: calc(var(--sm-factor) * (100vh + 100vw)/1.95);}}
+@media (min-width: 768px) and (max-width: 992px)    {:root{--dimension-factor: calc(var(--md-factor) * (100vh + 100vw)/1.9);}}
+@media (min-width: 992px) and (max-width: 1200px)   {:root{--dimension-factor: calc(var(--lg-factor) * (100vh + 100vw)/1.85);}}
+@media (min-width: 1200px) and (max-width: 1366px)  {:root{--dimension-factor: calc(var(--xl-factor) * (100vh + 100vw)/1.8);}}
+@media (min-width: 1366px) and (max-width: 1440px)  {:root{--dimension-factor: calc(var(--xl-factor) * (100vh + 100vw)/1.85);}}
+@media (min-width: 1440px) and (max-width: 1920px)  {:root{--dimension-factor: calc(var(--xl-factor) * (100vh + 100vw)/1.9);}}
+@media (min-width: 1920px)                          {:root{--dimension-factor: calc(var(--xl-factor) * (100vh + 100vw)/1.95);}}
 
 /* Z-index */
 .z-1{z-index: 1;}.z-2{z-index: 2;}.z-3{z-index: 3;}.z-4{z-index: 4;}.z-5{z-index: 5;}.z-6{z-index: 6;}.z-7{z-index: 7;}.z-8{z-index: 8;}.z-9{z-index: 9;}.z-10{z-index: 10;}.z-1{z-index: 1;}.z-11{z-index: 11;}.z-12{z-index: 12;}.z-13{z-index: 13;}.z-14{z-index: 14;}.z-15{z-index: 15;}.z-16{z-index: 16;}.z-17{z-index: 17;}.z-18{z-index: 18;}.z-19{z-index: 19;}.z-20{z-index: 20;}

@@ -1,0 +1,17 @@
+:root{
+    --xs-factor: 1;
+    --sm-factor: 1;
+    --md-factor: 1;
+    --lg-factor: 1;
+    --xl-factor: 1;
+    --color-tier-1: white;
+    --color-tier-2: red;
+    --color-tier-3: blue;
+    --color-tier-4: green;
+    --color-tier-5: black;
+    --font-tier-1: 'Roboto';
+    --font-tier-2: 'Raleway';
+    --font-tier-3: 'Pacifico';
+    --font-tier-4: 'Montserrat';
+    --font-tier-5: 'Oswald';
+}
