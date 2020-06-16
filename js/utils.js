@@ -1,10 +1,8 @@
 $(document).ready(function(){
-    $('.va').on('click', function(){
+    va()
+    $(window).resize(function () { 
         va()
-        $(window).resize(function () { 
-            va()
-        });
-    })
+    });
 })
 
 /* ----------------------------------------------------------------------------------------------------------- */

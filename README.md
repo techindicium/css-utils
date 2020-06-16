@@ -1,5 +1,13 @@
 # CSS Utils #
 
+You can include the minified version of this library using this links:
+```
+CSS:
+https://indicium-cdn.s3.amazonaws.com/css-utils/utils.min.css
+JS:
+https://indicium-cdn.s3.amazonaws.com/css-utils/utils.min.js
+```
+
 ## Content ##
 
 ### Vertical Alignment ###
@@ -85,7 +93,7 @@ Every **VA Item** have its height changed based on the greatest height of a grou
         xih2 = item x image row 2 height
         xth1 = item x text row 1 height
         xth2 = item x text row 2 height
-        xihn = item x text row n height
+        xihn = item x image row n height
         xthn = item x text row n height
         sh = xh - sum(xih1, xih2, ... ,xihn) - sum(xth1, xth2, ... ,xthn)
 
