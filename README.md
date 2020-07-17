@@ -166,6 +166,27 @@ Every **VA Item** have its height changed based on the greatest height of a grou
  
 ### CSS Glossary ###
 
+Initial Configuration (Optional):
+```
+:root{
+    --xs-factor: 1;
+    --sm-factor: 1;
+    --md-factor: 1;
+    --lg-factor: 1;
+    --xl-factor: 1;
+    --color-tier-1: white;
+    --color-tier-2: red;
+    --color-tier-3: blue;
+    --color-tier-4: green;
+    --color-tier-5: black;
+    --font-tier-1: 'Roboto';
+    --font-tier-2: 'Raleway';
+    --font-tier-3: 'Pacifico';
+    --font-tier-4: 'Montserrat';
+    --font-tier-5: 'Oswald';
+}
+```
+
 1. Animations
 
 - Expansion:  `e-0 |+1| e-5`
@@ -212,7 +233,8 @@ Every **VA Item** have its height changed based on the greatest height of a grou
 - Margin:
     * Top:  `mt-7, mt-10 |+5| mt-100`
     * Bottom:  `mb-7, mb-10 |+5| mb-100`
-    * Top & Bottom:  `my-7, my-10 |+5| my-100` 
+    * Top & Bottom:  `my-7, my-10 |+5| my-100`
+    (You can also call negative margin with the 'n' suffix `mtn-x mbn-x`)
 
 5. Images
 6. Texts
